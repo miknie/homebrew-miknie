@@ -1,5 +1,5 @@
-class Gnupg < Formula
-  desc "GNU Pretty Good Privacy (PGP) package"
+class GnupgWithGpgZip < Formula
+  desc "GNU Pretty Good Privacy (PGP) package - with gpg-zip"
   homepage "https://gnupg.org/"
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.12.tar.bz2"
   sha256 "db030f8b4c98640e91300d36d516f1f4f8fe09514a94ea9fc7411ee1a34082cb"
