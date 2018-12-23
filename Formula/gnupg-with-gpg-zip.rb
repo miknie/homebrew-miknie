@@ -35,6 +35,8 @@ class Gnupg < Formula
     system "make"
     system "make", "check"
     system "make", "install"
+
+    bin.install "tools/gpg-zip"
   end
 
   def post_install
